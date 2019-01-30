@@ -6,6 +6,9 @@
 ### biopython
 ### pandas
 
+## Algorithm
+This GeneFinder can predict gene in an unannotated genome with a given gene sequence from another genome. It runs local alignments to find putative exons, and than use exon chaining method to find the best chaining of the putative exons.
+
 ## File description
 
 ### exonChainMain.py
@@ -19,7 +22,7 @@ This is an example for running the exon chaining algorithm.
 
 ## Results
 The putative exons found by local alignment:
-![putative exons](https://raw.githubusercontent.com/TuziUsagi/PyPSC/master/exampleFigures/PSC_example.png)
+![putative exons](https://raw.githubusercontent.com/TuziUsagi/GeneFinder/master/exampleResult/putativeExons.png)
 
 The gene finding result:
-![Gene](https://raw.githubusercontent.com/TuziUsagi/PyPSC/master/exampleFigures/baseline_example.png)
+![Gene](https://raw.githubusercontent.com/TuziUsagi/GeneFinder/master/exampleResult/geneFinding.png)
